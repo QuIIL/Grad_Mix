@@ -1,5 +1,5 @@
 # Grad_mix : GradMix for nuclei segmentation and classification in imbalanced pathology image datasets
-by Tan Nhu Nhat Doan, Kyungeun Kim2, Boram Song, and Jin Tae Kwak. (jkwak@korea.ac.kr)
+by Tan Nhu Nhat Doan, Kyungeun Kim2, Boram Song, and Jin Tae Kwak.
 
 ## Introduction
 This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation and classification in imbalanced pathology image datasets]
