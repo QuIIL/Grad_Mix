@@ -11,9 +11,11 @@ This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation an
 GradMix takes a pair of a major-class nucleus and a rare-class nucleus, creates a customized mixing mask, and combines them using the mask to generate a new rare-class nucleus. As it combines two nuclei,
 GradMix considers both nuclei and the neighboring environment by using the customized mixing mask. This allows us to generate realistic rare-class nuclei with varying environments.
 ## Requirements
--   python 3.6.1
--   torch 1.1.0
--   torch-geometric 1.2.1
+  
+-   python  3.6.10
+-   scikit-learn 0.23.1
+-   scikit-image 0.16.2
+-   opencv-python 4.1.2.32
 -   Other packages in requirements.txt
 
 ## Usage
