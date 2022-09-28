@@ -30,5 +30,28 @@ Prerequisite: Dataset images, cell/nuclei instance masks and cell/nuclei centroi
 
 ```
 2. Run the jupyter file and new grad_mix images and labels will be stored in the outdirs as mentioned.
-3. For Training the nuclei segmentaion and classification please refer to our other repository.
+3. For Training and Testing of nuclei segmentaion and classification tasks please refer to our other repository.
 Repository: [Sonnet:A self-guided ordinal regression neural network for segmentation and classification of nuclei in large-scale multi-tissue histology images](https://github.com/QuIIL/Sonnet)
+
+## Citation
+If Grad_mix is useful for your research, please consider citing following two papers:
+```angular2html
+@inproceedings{doan2022gradmix,
+  title={GradMix for Nuclei Segmentation and Classification in Imbalanced Pathology Image Datasets},
+  author={Doan, Tan Nhu Nhat and Kim, Kyungeun and Song, Boram and Kwak, Jin Tae},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  pages={171--180},
+  year={2022},
+  organization={Springer}
+}
+@article{doan2022sonnet,
+  title={SONNET: A self-guided ordinal regression neural network for segmentation and classification of nuclei in large-scale multi-tissue histology images},
+  author={Doan, Tan NN and Song, Boram and Vuong, Trinh TL and Kim, Kyungeun and Kwak, Jin T},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  volume={26},
+  number={7},
+  pages={3218--3228},
+  year={2022},
+  publisher={IEEE}
+}
+```
