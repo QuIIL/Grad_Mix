@@ -17,6 +17,13 @@ GradMix considers both nuclei and the neighboring environment by using the custo
 -   Other packages in requirements.txt
 
 ## Usage
-Prerequisite: dataset images and cell/nuclei instance masks 
+Prerequisite: Dataset images, cell/nuclei instance masks and cell/nuclei centroids 
 1. Clone the repository and set up the folders in the following structure:
 ```
+ ├── data 
+ |   |── Images (Raw)
+ |   |── Labels (Raw) 
+ |   |── Grad_mix_Images  (output dir: New Sythesized Images)       
+ |   |── Grad_mix_Labels  (output dir: New Sythesized Labels) 
+ |   |── Inapinted_Images (output dir: New Sythesized Inpainted Images) 
+ ├──
