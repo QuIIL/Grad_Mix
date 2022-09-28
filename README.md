@@ -16,7 +16,6 @@ GradMix considers both nuclei and the neighboring environment by using the custo
 -   scikit-learn 0.23.1
 -   scikit-image 0.16.2
 -   opencv-python 4.1.2.32
--   Other packages in requirements.txt
 
 ## Usage
 Prerequisite: Dataset images, cell/nuclei instance masks and cell/nuclei centroids 
