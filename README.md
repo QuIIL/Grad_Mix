@@ -1,5 +1,5 @@
 # Grad_mix : GradMix for nuclei segmentation and classification in imbalanced pathology image datasets
-by Tan Nhu Nhat Doan, Kyungeun Kim2, Boram Song, and Jin Tae Kwak
+by Tan Nhu Nhat Doan, Kyungeun Kim2, Boram Song, and Jin Tae Kwak. (jkwak@korea.ac.kr)
 
 ## Introduction
 This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation and classification in imbalanced pathology image datasets]
@@ -27,3 +27,6 @@ Prerequisite: Dataset images, cell/nuclei instance masks and cell/nuclei centroi
  |   |── Grad_mix_Labels  (output dir: New Sythesized Labels) 
  |   |── Inapinted_Images (output dir: New Sythesized Inpainted Images) 
  ├──
+Run the jupyter file and new grad_mix images and labels will be stored in the outdirs as mentioned.
+For Training the nuclei segmentaion and classification please refer to our other repository.
+Repository: [Sonnet:A self-guided ordinal regression neural network for segmentation and classification of nuclei in large-scale multi-tissue histology images](https://github.com/QuIIL/Sonnet)
