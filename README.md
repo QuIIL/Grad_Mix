@@ -1,5 +1,5 @@
 # Grad_mix : GradMix for nuclei segmentation and classification in imbalanced pathology image datasets
-by Tan Nhu Nhat Doan, Kyungeun Kim2, Boram Song, and Jin Tae Kwak.
+by Tan Nhu Nhat Doan, Kyungeun Kim, Boram Song, and Jin Tae Kwak.
 
 ## Introduction
 This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation and classification in imbalanced pathology image datasets]
@@ -8,7 +8,7 @@ This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation an
 ![Grad_mix](./data/Workflow.png)
 
 
-GradMix takes a pair of a major-class nucleus and a rare-class nucleus, creates a customized mixing mask, and combines them using the mask to generate a new rare-class nucleus. As it combines two nuclei,
+GradMix is an data augmentation technique that is designed to improve nuclei segmentation classification in imbalanced pathology images. It takes a pair of a major-class nucleus and a rare-class nucleus, creates a customized mixing mask, and combines them using the mixing mask to generate a new rare-class nucleus. As it combines two nuclei,
 GradMix considers both nuclei and the neighboring environment by using the customized mixing mask. This allows us to generate realistic rare-class nuclei with varying environments.
 # Grad_mix Example Images
 ![Grad_mix_Examples](./data/dataset_examples.png)
