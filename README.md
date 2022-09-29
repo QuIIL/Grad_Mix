@@ -10,6 +10,12 @@ This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation an
 
 GradMix takes a pair of a major-class nucleus and a rare-class nucleus, creates a customized mixing mask, and combines them using the mask to generate a new rare-class nucleus. As it combines two nuclei,
 GradMix considers both nuclei and the neighboring environment by using the customized mixing mask. This allows us to generate realistic rare-class nuclei with varying environments.
+# Grad_mix Example Images
+![Grad_mix_Examples](./data/dataset_examples.png)
+
+# Results
+![Grad_mix_Results](./data/results_table.png)
+
 ## Requirements
   
 -   python  3.6.10
