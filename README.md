@@ -1,4 +1,4 @@
-# Grad_mix : GradMix for nuclei segmentation and classification in imbalanced pathology image datasets
+# Grad_Mix : GradMix for nuclei segmentation and classification in imbalanced pathology image datasets
 by Tan Nhu Nhat Doan, Kyungeun Kim, Boram Song, and Jin Tae Kwak.
 
 ## Introduction
