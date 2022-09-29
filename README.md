@@ -5,7 +5,7 @@ by Tan Nhu Nhat Doan, Kyungeun Kim2, Boram Song, and Jin Tae Kwak.
 This repository is for our MICCAI 2022 paper [GradMix for nuclei segmentation and classification in imbalanced pathology image datasets]
 (https://link.springer.com/chapter/10.1007/978-3-031-16434-7_17).
 
-![Grad_mix](./data/grad_mix.PNG)
+![Grad_mix](./data/Workflow.tif)
 
 
 GradMix takes a pair of a major-class nucleus and a rare-class nucleus, creates a customized mixing mask, and combines them using the mask to generate a new rare-class nucleus. As it combines two nuclei,
